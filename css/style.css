@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: #041339;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    margin-top: 30px
+    /* background-color: red; */
+}
+
+.container{
+    width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text1{
+    
+}
+.text1 ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.text1 ul li{
+    margin-left: 15px;
+    /* padding: 3px 5px; */
+    cursor: pointer;
+}
+.text1 ul li:nth-child(1) a{
+    border: 2px solid #FFA500;   
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+.text1 ul li:nth-child(2) a{
+    transition: 0.1s;
+}
+
+/*hover*/
+.text1 ul li:nth-child(1):hover a{
+    background-color: #FFA500;
+    transform: rotate(-10deg);
+}
+/* .text1 ul li:nth-child(2):hover a{
+    border: 2px solid #FF0000;
+    border-radius: 5px;
+} */
+
+.text1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+.text1 ul li:nth-child(2) a{
+    transition: 0.8s;
+}
+
+.text1 ul li:nth-child(2):hover a{
+    color: #90EE90;
+}
+
+.text1 ul li:nth-child(3) a{
+    transition: 0.8s;
+}
+
+
+.text1 ul li:nth-child(3):hover a{
+    color: #FF0000;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+span:first-child{
+    color: orange;
+}
+
+span:nth-child(2){
+    color: red;
+}
+span:last-child{
+    color: lightgreen;
+}
+.text2{
+    
+}
+.text2 ul{
+    list-style: none;
+    display: flex;
+}
+
+.text2 ul li{
+    margin-left: 15px;
+    padding: 3px 5px;
+}
+.text2 ul li:nth-child(3) a{
+    border: 2px solid #FF0000;   
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+
+.text2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 3px 5px;
+    
+}
+
+
+
+.text2 ul li:nth-child(2) a{
+    transition: 0.1s;
+    transform: rotate(0deg);
+}
+
+/*hover*/
+.text2 ul li:nth-child(3):hover a{
+    background-color: #FF0000;
+}
+
+.text2 ul li:nth-child(1) a{
+    transition: 0.8s;
+}
+
+.text2 ul li:nth-child(1):hover a{
+    color: #90EE90;
+}
+
+.text2 ul li:nth-child(2) a{
+    transition: 0.8s;
+}
+
+
+.text2 ul li:nth-child(2):hover a{
+    color: #FFA500;
+}
